@@ -29,12 +29,12 @@
 //   },
 // };
 
-interface IPerson2 {
+type IPerson2 = {
   _name: string;
   _age: number;
 
   seyHello: () => string;
-}
+};
 
 abstract class Person2 implements IPerson2 {
   // abstract classlardan object yaratib bolmaydi faqat vorislik olish mumkin
@@ -60,4 +60,4 @@ class Student2 extends Person2 {
 }
 
 const s: IPerson2 = new Student2("Suhrob", 19);
-console.log(s.seyHello());
+// console.log(s.seyHello());

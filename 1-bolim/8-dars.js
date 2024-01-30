@@ -20,5 +20,5 @@ class Student2 extends Person2 {
     }
 }
 const s = new Student2("Suhrob", 19);
-console.log(s.seyHello());
+// console.log(s.seyHello());
 //# sourceMappingURL=8-dars.js.map
